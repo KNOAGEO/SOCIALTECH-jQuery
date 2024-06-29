@@ -81,7 +81,7 @@ $('#submit').on('click', (event)=>{
     });
 
 // お問い合わせフォームの入力チェック
-inputCheck (()=> {
+const inputCheck = ()=> {
     /*console.log('inputCheck関数の呼び出し');
 });*/
 
@@ -169,6 +169,6 @@ inputCheck (()=> {
 
                 // 戻り値としてエラーがあるかどうかを返す
                 return result;
-            });
+            };
     
     
